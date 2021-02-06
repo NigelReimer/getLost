@@ -24,4 +24,4 @@ In addition to the buttons, there is also a text box for keeping some brief note
 
 ## Options
 
-Games of getLost are customised by changing the options passed when creating an instance of the GetLostGame class. Check out the GetLostOptions type definition in the typedefs.js file for more information.
+Games of getLost are customised by changing the options passed when creating an instance of the GetLostGame class. Check out the GetLostOptions type definition in the typedefs.js file for more information. The default options provided in this repository have players transported to a random major US city, but this can be changed to anything desired, such world cities or several hand-picked destinations within a single city.
