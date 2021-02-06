@@ -1,6 +1,6 @@
 # getLost
 
-getLost is a web-based game inspired by ![GeoGuessr](https://www.geoguessr.com/). Making use of the Google Maps JavaScript API, it puts the player in a random position on Earth and challenges them to deduce their location using the Street View service to explore and gather clues.
+getLost is a web-based game inspired by [GeoGuessr](https://www.geoguessr.com/). Making use of the Google Maps JavaScript API, it puts the player in a random position on Earth and challenges them to deduce their location using the Street View service to explore and gather clues.
 
 In 2018, Google significantly increased prices for usage of their Maps API, forcing GeoGuessr and other similar services to pursue more aggressive monetization schemes. For this reason, in order to use this application, you must first provide your own Google Maps JavaScipt API key by replacing YOUR_API_KEY_HERE in the index.html file.
 
@@ -12,11 +12,11 @@ Upon loading, the player will automatically be sent to a random place where they
 
 On the panorama view, players explore their surroundings and gather clues about their location.
 
-![Panorama View](url)
+![Panorama View](https://raw.githubusercontent.com/NigelReimer/images/main/getLost/Picture1.png)
 
 On the map view, players select their guess by clicking a location on the map, then submit their guess for scoring.
 
-![Map View](url)
+![Map View](https://raw.githubusercontent.com/NigelReimer/images/main/getLost/Picture1.png)
 
 Players can switch between these views by clicking the leftmost toggle button or by pressing the spacebar. The rightmost button performs different actions depending on the current view and game state. On the map view, it displays as a compass showing the current direction faced, and will return players to their start location when pressed. On the map view it will submit a guess for scoring once a guess marker has been placed, and it will attempt a new round once the current one is complete.
 
