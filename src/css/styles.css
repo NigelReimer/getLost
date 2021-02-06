@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  height: 64px;
+  margin: 0 0 0 8px;
+  outline: none;
+  position: relative;
+  width: 64px;
+}
+
+button,
+#inputNotes {
+  opacity: .7;
+}
+
+button:hover,
+#inputNotes:hover {
+  opacity: .8;
+}
+
+button:active,
+#inputNotes:focus {
+  opacity: .9;
+}
+
+.background-arrow {
+  background-image: url(../svg/arrow.svg);
+}
+
+.background-camera {
+  background-image: url(../svg/camera.svg);
+}
+
+.background-check {
+  background-image: url(../svg/check.svg);
+}
+
+.background-compass {
+  background-image: url(../svg/compass.svg);
+}
+
+.background-compass:hover {
+  background-image: url(../svg/previous.svg);
+}
+
+.background-map {
+  background-image: url(../svg/map.svg);
+}
+
+.background-marker {
+  background-image: url(../svg/marker.svg);
+}
+
+.background-next {
+  background-image: url(../svg/next.svg);
+}
+
+#divArrow {
+  height: 64px;
+  width: 64px;
+}
+
+#divArrow:hover {
+  background-image: none;
+}
+
+#divControls {
+  bottom: 64px;
+  display: flex;
+  flex-direction: row;
+  left: 64px;
+  position: absolute;
+  right: 64px;
+  z-index: 1;
+}
+
+#divDisplay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#inputNotes {
+  border: 3px solid;
+  border-radius: 32px;
+  flex-grow: 1;
+  font: 700 28px 'Nunito', sans-serif;
+  height: 56px;
+  outline: none;
+  padding: 0 22px 0 22px;
+}
+
+#inputNotes::selection {
+  background: silver;
+}
+
+#inputNotes.notes-default {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+#inputNotes.notes-inverted {
+  background-color: white;
+  border-color: black;
+  color: black;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  viewBox="0 0 64 64" >
+  <circle
+    style="fill:white; stroke:black; stroke-width:3;"
+    cx="32"
+    cy="32"
+    r="30.5" />
+  <path
+    style="fill:white; stroke:black; stroke-width:3; stroke-linejoin:round;"
+    d="M 17,29 11,35 26,50 52,24 46,18 26,38 Z" />
+</svg>

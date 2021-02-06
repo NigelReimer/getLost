@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>getLost</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<div id="divDisplay"></div>
+<div id="divControls">
+  <input id="inputNotes" type="text" spellcheck="false">
+  <button id="buttonToggle" type="button"></button>
+  <button id="buttonAction" type="button">
+    <div id="divArrow"></div>
+  </button>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=geometry"></script>
+<script src="js/game.js"></script>
+<script src="js/options.js"></script>
+<script>
+  new GetLostGame(options).attemptRound();
+</script>
