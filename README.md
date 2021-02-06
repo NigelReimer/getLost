@@ -18,7 +18,7 @@ On the map view, players select their guess by clicking a location on the map, t
 
 ![Map View](https://raw.githubusercontent.com/NigelReimer/images/main/getLost/Picture2.png)
 
-Players can switch between these views by clicking the leftmost toggle button or by pressing the spacebar. The rightmost button performs different actions depending on the current view and game state. On the map view, it displays as a compass showing the current direction faced, and will return players to their start location when pressed. On the map view it will submit a guess for scoring once a guess marker has been placed, and it will attempt a new round once the current one is complete.
+Players can switch between these views by clicking the leftmost toggle button or by pressing the spacebar. The rightmost button performs different actions depending on the current view and game state. On the panorama view, it displays as a compass showing the current direction faced, and will return players to their start location when pressed. On the map view it will submit a guess for scoring once a guess marker has been placed, and it will attempt a new round once the current one is complete.
 
 In addition to the buttons, there is also a text box for keeping some brief notes such as street names or other clues. This text box is also used to display the end-of-round information including the coordinates of a player's position, the distance that their guess was from the true position, the time it took to guess, and a score derived from these values.
 
